@@ -10,6 +10,7 @@ Download and run exe file on Target Computer.The data will mail in 5-10 seconds.
 ![github-small](/images/mail2.png)
 
 ## INSTALLATION
+#### (if you are using a python file)
 
 ```
 pip install smtplib
