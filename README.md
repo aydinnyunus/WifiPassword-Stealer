@@ -10,7 +10,7 @@ Download and run exe file on Target Computer.The data will mail in 5-10 seconds.
 
 ## USAGE TEMP MAIL
 
-Enter this link "https://mailtrap.io/" and create account with Temp Mail.
+Register an account on this site "https://mailtrap.io/" using a temp mail.
 Get Username,Password (with encrypted) and Paste in "main.py".Set E-MAIL to your Temp Mail.
 
 ![github-small](/images/dene.png)
