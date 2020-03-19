@@ -9,7 +9,7 @@ import glob
 
 system_information = "Informations.txt"
 
-# TEMP MAIL
+# TEMP MAIL API (LOOK READ.ME)
 email_address = "YOUR MAIL"
 username = "YOUR USERNAME (MD5)"
 password= "YOUR PASSWORD (MD5)"
