@@ -7,20 +7,7 @@ Get All Registered Wifi Passwords from Target Computer.
 
 Download and run exe file on Target Computer.The data will mail in 5-10 seconds.
 
-
-## USAGE TEMP MAIL
-
-Register an account on this site "https://mailtrap.io/" using a temp mail.
-Get the Username,Password and put them in the "main.py" username and password part.
-
 ![github-small](/images/dene.png)
-
-
-### https://mailtrap.io/ 
-### https://temp-mail.org/pt
-
-
-
 
 ## INSTALLATION
 
