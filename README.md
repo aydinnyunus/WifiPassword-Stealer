@@ -22,13 +22,14 @@ pip install glob
 
 ## USAGE
 
-![github-small](/images/pass.png)
-
 •**Create Temp Mail send Create an account on "https://mailtrap.io/" using a temp mail.**
 
 ![github-small](/images/dene.png)
 
+![github-small](/images/pass.png)
+
 •**Set your own SMTP USERNAME and SMTP PASSWORD on "main.py".**
+
 
 •**Run main.py on Target Computer**
 
