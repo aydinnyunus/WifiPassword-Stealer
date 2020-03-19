@@ -12,6 +12,11 @@ Download and run exe file on Target Computer.The data will mail in 5-10 seconds.
 
 ### https://temp-mail.org/en/api/
 
+Watch the Tutorial !
+[![Watch the video](https://img.youtube.com/vi/wi9k59IGq_A/maxresdefault.jpg)](https://youtu.be/wi9k59IGq_A)
+
+
+
 
 
 ## INSTALLATION
