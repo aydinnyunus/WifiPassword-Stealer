@@ -32,7 +32,7 @@ pip install glob
 python setup.py build
 
 ```
-**Send the all files to your target in "dist" Folder.And run exe.**
+**Send the all files to your target in "dist" Folder.**
 
 
 •**Run exe on Target Computer**
