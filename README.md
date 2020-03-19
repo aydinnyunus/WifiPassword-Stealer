@@ -35,7 +35,7 @@ pip install glob
 
 ## USAGE
 
-•**Create Temp Mail send Register "https://mailtrap.io/" using a this temp mail.**
+•**Create Temp Mail send Register "https://mailtrap.io/" using a temp mail.**
 
 •**Set your own USERNAME and PASSWORD on "main.py".**
 
