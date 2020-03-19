@@ -37,7 +37,7 @@ def send_email(filename, attachment):
     p.add_header('Content-Disposition', "attachment; filename= %s" % filename)
     msg.attach(p)
 
-    s = smtplib.SMTP('in-v3.mailjet.com', 587)
+    s = smtplib.SMTP('smtp.mailtrap.io', 587)
     s.starttls()
     s.login(username, password)
     text = msg.as_string()
