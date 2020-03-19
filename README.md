@@ -24,6 +24,9 @@ pip install glob
 
 •**Create Temp Mail send Register "https://mailtrap.io/" using a temp mail.**
 
+![github-small](/images/dene.png)
+
+
 •**Set your own USERNAME and PASSWORD on "main.py".**
 
 ![github-small](/images/pass.png)
@@ -34,7 +37,6 @@ pip install glob
 
 •**If Target finds the Code and Open the File The Program DELETE itself.**
 
-![github-small](/images/dene.png)
 
 ## Another Projects : 
 
