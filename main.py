@@ -10,9 +10,12 @@ import glob
 system_information = "Informations.txt"
 
 # TEMP MAIL (LOOK READ.ME)
+
+# ==============================
 email_address = "YOUR MAIL"
 username = "YOUR USERNAME"
 password= "YOUR PASSWORD"
+# ==============================
 
 file_path = os.getcwd()
 
