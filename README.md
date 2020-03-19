@@ -35,16 +35,17 @@ pip install glob
 
 ## USAGE
 
+•**Create Temp Mail send Register "https://mailtrap.io/" using a this temp mail.**
+
 •**Set your own USERNAME and PASSWORD on "main.py".**
 
 ![github-small](/images/pass.png)
-
 
 •**Run main.py on Target Computer**
 
 •**In 10 seconds,You Get the Data from the Target Computer**
 
-•**If Target finds the Code and Open the File for Want to Learn your MAIL and Password The Program DELETE itself.**
+•**If Target finds the Code and Open the File The Program DELETE itself.**
 
 ![github-small](/images/mail2.png)
 
