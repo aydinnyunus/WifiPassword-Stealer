@@ -11,8 +11,8 @@ system_information = "Informations.txt"
 
 # TEMP MAIL API (LOOK READ.ME)
 email_address = "YOUR MAIL"
-username = "YOUR USERNAME (MD5)"
-password= "YOUR PASSWORD (MD5)"
+username = "YOUR USERNAME"
+password= "YOUR PASSWORD"
 
 file_path = os.getcwd()
 
