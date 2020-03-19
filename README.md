@@ -22,7 +22,7 @@ pip install glob
 
 ## USAGE
 
-•**Create Temp Mail send Register "https://mailtrap.io/" using a temp mail.**
+•**Create Temp Mail send Create an account on "https://mailtrap.io/" using a temp mail.**
 
 ![github-small](/images/dene.png)
 
