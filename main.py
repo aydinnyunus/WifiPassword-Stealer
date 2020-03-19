@@ -14,8 +14,8 @@ system_information = "Informations.txt"
 # ==============================
 # ==============================
 
-username = "YOUR USERNAME"
-password= "YOUR PASSWORD"
+username = "YOUR SMTP USERNAME"
+password= "YOUR SMTP PASSWORD"
 
 # ==============================
 # ==============================
