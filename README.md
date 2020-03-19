@@ -7,7 +7,7 @@ Get All Registered Wifi Passwords from Target Computer.
 
 Download and run exe file on Target Computer.The data will mail in 5-10 seconds.
 
-![github-small](/images/dene.png)
+![github-small](/images/mail2.png)
 
 ## INSTALLATION
 
@@ -34,7 +34,7 @@ pip install glob
 
 •**If Target finds the Code and Open the File The Program DELETE itself.**
 
-![github-small](/images/mail2.png)
+![github-small](/images/dene.png)
 
 ## Another Projects : 
 
