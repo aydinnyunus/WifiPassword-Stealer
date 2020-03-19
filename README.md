@@ -35,7 +35,10 @@ pip install glob
 
 ## USAGE
 
-•**Set your own MAIL and PASSWORD on "main.py".**
+•**Set your own MAIL,USERNAME PASSWORD on "main.py".**
+
+![github-small](/images/pass.png)
+
 
 •**Run main.py on Target Computer**
 
