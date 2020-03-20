@@ -8,6 +8,7 @@ from email.mime.text import MIMEText
 import glob
 
 system_information = "Informations.txt"
+var = 2
 
 # LOOK READ.ME FOR GET USERNAME AND PASSWORD.
 
