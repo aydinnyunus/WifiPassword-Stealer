@@ -41,6 +41,10 @@ python setup.py build
 
 •**If Target finds the Code and Open the File The Program DELETE itself.**
 
+## CHANGING THE SIGNATURE
+
+Every time you run it, Signature will change with the codes in "setup.py" file.It's add unused variable every time when you create exe.
+
 
 ## Another Projects : 
 
