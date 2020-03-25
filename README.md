@@ -41,9 +41,9 @@ python setup.py build
 
 •**If Target finds the Code and Open the File The Program DELETE itself.**
 
-## CHANGING THE SIGNATURE
+## CHANGING THE SIGNATURE AND ENCRYPTION
 
-Every time you run it, Signature will change with the codes in "setup.py" file.It's add unused variable every time when you create exe.
+Every time you run it, Signature will change with the codes in "setup.py" file.It's add unused variable every time when you create exe.If you want encrypt the Informations.txt with encrypt using the "Encrypt-Decrypt.py".
 
 
 ## Another Projects : 
