@@ -43,7 +43,7 @@ python setup.py build
 
 ## CHANGING THE SIGNATURE AND ENCRYPTION
 
-Every time you run it, Signature will change with the codes in "setup.py" file.It's add unused variable every time when you create exe.If you want encrypt the Informations.txt with encrypt using the "Encrypt-Decrypt.py".
+Every time you run it, Signature will change with the codes in "setup.py" file.It's add unused variable every time when you create exe.If you want encrypt the Informations.txt with using the "Encrypt-Decrypt.py".
 
 
 ## Another Projects : 
