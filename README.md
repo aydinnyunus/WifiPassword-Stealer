@@ -43,7 +43,7 @@ python setup.py build
 
 ## CHANGING THE SIGNATURE AND ENCRYPTION
 
-Every time you run it, Signature will change when you run "setup.py.If you want encrypt the Informations.txt (Wifi Password) using the "Encrypt-Decrypt.py".
+Every time you run "setup.py", Signature will change and If you want encrypt the Informations.txt (Wifi Password) using the "Encrypt-Decrypt.py" for better security.
 
 
 ## Another Projects : 
