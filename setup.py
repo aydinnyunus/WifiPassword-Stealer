@@ -1,4 +1,5 @@
 from cx_Freeze import setup, Executable
+import random
 
 file = open("main.py","a",encoding="utf-8")
 r1 = random.randint(-100000, 100000) 

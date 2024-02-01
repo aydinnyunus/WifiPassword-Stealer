@@ -7,10 +7,10 @@ Get All Registered Wifi Passwords from Target Computer.
 #### (if you are using a python file)
 
 ```
-pip install smtplib
-pip install subprocess
-pip install glob
-
+pip install secure-smtplib
+pip install subprocess.run
+pip install glob2
+python -m pip install cx_Freeze --upgrade
 ```
 
 ![github-small](/images/mail.png)
